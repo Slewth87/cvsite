@@ -16,10 +16,12 @@
     height: 400px;
     position: relative;
 }
-.carousel-inner img{
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
+@media (min-width: 992px){
+    .carousel-inner img{
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+    }
 }
 .backbox{
     background: rgba(50, 50, 50, 0.25);
